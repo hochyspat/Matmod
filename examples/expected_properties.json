@@ -1,0 +1,22 @@
+{
+  "properties": [
+    {
+      "instance_id": "01_basic",
+      "expected_feasible": true,
+      "reference_plan_cost": 20,
+      "optimal_cost": null
+    },
+    {
+      "instance_id": "02_tight_capacity",
+      "expected_feasible": true,
+      "reference_plan_cost": 24,
+      "optimal_cost": null
+    },
+    {
+      "instance_id": "03_infeasible",
+      "expected_feasible": false,
+      "reason": "Спрос первого периода 2 превышает запас магазина перед спросом, ограниченный ёмкостью 1."
+    }
+  ],
+  "model_id": "serial_inventory_v1"
+}

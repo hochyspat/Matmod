@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "model_id": "serial_inventory_v1",
+  "instance_id": "01_basic",
+  "horizon": 3,
+  "demand": [
+    2,
+    2,
+    2
+  ],
+  "capacity": {
+    "warehouse": 6,
+    "retailer": 6
+  },
+  "initial_inventory": {
+    "warehouse": 0,
+    "retailer": 0
+  },
+  "terminal_inventory": {
+    "warehouse": 0,
+    "retailer": 0
+  },
+  "costs": {
+    "order_warehouse": 5,
+    "order_retailer": 3,
+    "hold_warehouse": 1,
+    "hold_retailer": 2
+  }
+}
